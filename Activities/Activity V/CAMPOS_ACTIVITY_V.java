@@ -4,13 +4,13 @@ public static void main(String []args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter your age: ");
     int age = sc.nextInt();
-    if (age<=11){
+    if (age==0 && age<=11){
         System.out.println("Child");
      }
-     if else (age>=12 && age<=17){
+     if else (age==12 && age<=17){
         System.out.println("Teen");
-     }
-     if else (age>=18 && age<=64){
+     
+     } else (age==18 && age<=64){
         System.out.println("Adult");
      }
 }
